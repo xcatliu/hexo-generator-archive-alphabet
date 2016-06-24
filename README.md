@@ -77,8 +77,10 @@ See ??? for more details.
 
 ## Options
 
+```yml
 archive_generator:
   per_page: 10
+```
 
 - per_page: Posts displayed per page. (0 = disable pagination)
 
