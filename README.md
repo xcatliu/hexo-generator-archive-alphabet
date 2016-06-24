@@ -2,7 +2,7 @@
 
 Generate alphabetical archive for Hexo.
 
-It will generate a `/archive.html` page which is sorted by alphabet.
+It will generate an `/archive.html` page which is sorted by alphabet.
 
 > Impressed by [hexo-generator-archive].
 
