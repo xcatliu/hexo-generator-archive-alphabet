@@ -14,6 +14,8 @@ A live site using this plugin: http://js-index.com/
 
 And the GitHub repo for that site: https://github.com/xcatliu/js-index
 
+For an i18n version of this plugin: https://github.com/xcatliu/hexo-generator-archive-alphabet-i18n
+
 ## Installation
 
 $ npm install hexo-generator-archive-alphabet --save
@@ -32,6 +34,14 @@ banana      | B          | `alphabet` will always be uppercase
 你好中国     | N          | If first letter is unicode character, then `alphabet` will be the translated first letter
 \_tail      | _          | If first letter is other character, then `alphabet` will be `_`
 .dotfile    | _          | As above
+
+Tip: You can easily compare the `alphabet`, it will return a common sense result:
+
+```js
+'#' < 'A' // true
+'A' < 'B' // true
+'Z' < '_' // true
+```
 
 You should probably need to modify your theme's archive template to adapt this plugin.
 
