@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-archive-alphabet",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generate alphabetical archive for Hexo",
   "main": "index.js",
   "scripts": {
