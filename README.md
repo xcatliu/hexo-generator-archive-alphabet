@@ -18,7 +18,9 @@ For an i18n version of this plugin: https://github.com/xcatliu/hexo-generator-ar
 
 ## Installation
 
+```shell
 $ npm install hexo-generator-archive-alphabet --save
+```
 
 ## Usage
 
