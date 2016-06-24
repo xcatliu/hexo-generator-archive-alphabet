@@ -1,0 +1,36 @@
+{
+  "name": "hexo-generator-archive-alphabet",
+  "version": "0.0.0",
+  "description": "Generate alphabetical archive for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . && echo 'ESLint Passed!\\n'",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcatliu/hexo-generator-archive-alphabet.git"
+  },
+  "keywords": [
+    "hexo",
+    "generator",
+    "index",
+    "i18n",
+    "home"
+  ],
+  "author": "xcatliu <xcatliu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xcatliu/hexo-generator-archive-alphabet/issues"
+  },
+  "homepage": "https://github.com/xcatliu/hexo-generator-archive-alphabet#readme",
+  "dependencies": {
+    "hexo-pagination": "^0.1.0",
+    "transliteration": "^1.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.8.1"
+  }
+}
