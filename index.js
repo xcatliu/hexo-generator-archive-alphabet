@@ -1,5 +1,6 @@
 /* global hexo */
-/* eslint camelcase:0, no-param-reassign:0 */
+/* eslint camelcase:0, no-param-reassign:0, strict:0 */
+'use strict';
 
 const pagination = require('hexo-pagination');
 const transliteration = require('transliteration');
