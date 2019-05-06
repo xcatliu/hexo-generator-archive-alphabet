@@ -1,5 +1,8 @@
 # hexo-generator-archive-alphabet
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xcatliu/hexo-generator-archive-alphabet.svg)](https://greenkeeper.io/)
+
+
 Generate alphabetical archive for Hexo.
 
 It will generate an `/archive.html` page which is sorted by alphabet.
